@@ -1,11 +1,9 @@
-using BaseHelpLibs;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-namespace BaseHelpLibsTest
+namespace BaseHelpLibsTest2
 {
     [TestClass]
-    public class ComputeHelperTest
+    public class ComputeHelperTest2
     {
         [TestMethod]
         public void ComputeTest()

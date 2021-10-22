@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1300
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseHelpLibs", "BaseHelpLibs\BaseHelpLibs.csproj", "{320FEEF7-5CDE-4BD3-A8F7-E4EB84CB63DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseHelpLibs", "BaseHelpLibs\BaseHelpLibs.csproj", "{320FEEF7-5CDE-4BD3-A8F7-E4EB84CB63DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseHelpLibsTest", "BaseHelpLibsTest\BaseHelpLibsTest.csproj", "{D741BC78-DA66-4EB5-85EC-04357FE7098F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseHelpLibsTest", "BaseHelpLibsTest\BaseHelpLibsTest.csproj", "{D741BC78-DA66-4EB5-85EC-04357FE7098F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{320FEEF7-5CDE-4BD3-A8F7-E4EB84CB63DC} = {320FEEF7-5CDE-4BD3-A8F7-E4EB84CB63DC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
