@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Title>NuGet Demo BaseHelper</Title>
     <AssemblyName>WadeLinDemoBaseHelper</AssemblyName>
   </PropertyGroup>
